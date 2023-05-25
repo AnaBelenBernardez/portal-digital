@@ -23,24 +23,24 @@ _Segundo proyecto para HACK A BOSS - 2023: API que permite gestionar una web don
 * La información necesaria se puede encontrar en el archivo .env.example.
 ### NPM necesarios
 * Debes instalar primero los módulos necesarios:
-```
+``
 npm install
-```
+``
 ### Base de datos
 * Es necesario tener previamente configurado el archivo .env.
 * Para crear la base de datos con las tablas vacías:
-```
+``
 node db/initDB
-```
+``
 * Para crear la base de datos con 20 usuarios aleatorios:
-```
+``
 node db/initDB --data
-```
+``
 ### Servidor
 * Para iniciar el servidor:
-```
+``
 npm start
-```
+``
 
 ## 👩‍💻 Autores
 * [@BorjaLopz](https://github.com/BorjaLopz)
